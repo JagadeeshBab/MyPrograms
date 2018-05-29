@@ -1,0 +1,21 @@
+package com.automation.selenium.java;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SeleniumTest 
+{
+public static void main(String[] args) {
+
+
+
+
+System.setProperty("webdriver.chrome.driver", "F:\\selenium\\Java_selenium\\drivers\\chromedriver.exe");
+
+WebDriver webdriver=new ChromeDriver();
+
+
+
+
+}
+}

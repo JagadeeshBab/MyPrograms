@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FlipKart_Simple_test.java&apos; to &apos;pb2framework/src/com.rameshsoft.automation.businessscripts&apos;&#x0D;&#x0A;- Original project: &apos;Javaselenium&apos;&#x0D;&#x0A;- Destination element: &apos;pb2framework/src/com.rameshsoft.automation.businessscripts&apos;&#x0D;&#x0A;- Original element: &apos;com.automation.selenium.java.FlipKart_Simple_test.java&apos;" description="Copy compilation unit" destination="=pb2framework/src&lt;com.rameshsoft.automation.businessscripts" element1="/src&lt;com.automation.selenium.java{FlipKart_Simple_test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1524418159713" units="1" version="1.0"/>
+</session>

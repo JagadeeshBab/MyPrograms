@@ -1,0 +1,28 @@
+package com.java.programs;
+
+class DesignPattern {
+
+	private static DesignPattern pattern;
+	
+	private DesignPattern() {
+
+	}
+	
+	public static DesignPattern getInstance() {
+		
+		if(pattern!=null)
+			
+		return pattern;
+		
+	}
+
+	
+}
+
+public class Singleton {
+
+	public static void main(String[] args) {
+
+	}
+
+}

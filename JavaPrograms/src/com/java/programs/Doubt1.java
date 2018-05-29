@@ -1,0 +1,23 @@
+package com.java.programs;
+
+public class Doubt1 {
+
+	
+	public void display() {
+		
+
+	}
+	
+	public void hello() {
+		
+	}
+	
+}
+class Abc{
+	
+	public static Doubt1 creationOBJ() {
+		//Doubt1 d = new Doubt1();
+		return new Doubt1();
+
+	}
+}

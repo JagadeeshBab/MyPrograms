@@ -1,0 +1,61 @@
+package com.automation.selenium.java;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class FindElements {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver","E:\\selenium\\Javaselenium\\drivers\\chromedriver.exe" );
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+		/*driver.get("https://www.google.com");
+		 
+		driver.findElement(By.id("lst-ib"));
+		Actions actions=new Actions(driver);
+		actions.sendKeys("seleniumbyramesh").sendKeys(Keys.ENTER).build().perform();*/
+		
+		driver.get("http://rameshselenium.blogspot.in/");
+		List<WebElement> links=driver.findElements(By.tagName("a"));
+		System.out.println(links.size());
+		List<String> linksText=new ArrayList();
+		int i=0;
+		int j=0;
+		
+		for(WebElement ele:links) {
+		//	String mnts=ele.getText();
+			//linksText.add(mnts));
+		linksText.add(ele.getText());
+			if(ele.isDisplayed()&&ele.isEnabled()) {
+				i++;
+				
+			}
+			else {
+				j++;
+				
+			}
+		}
+		System.out.println("enabled elements are :"+i);
+		System.out.println("disabled elements are:"+j);
+		System.out.println(linksText.size());
+		if(i+j==links.size()) {
+			System.out.println("total links are matched");
+		}
+		else
+		{
+			System.out.println("total links are mismatched");
+		}
+
+	}
+
+}

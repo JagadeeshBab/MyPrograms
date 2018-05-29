@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Upper_Lower.java&apos; to &apos;JavaPrograms/src/com.java.programs.regex&apos;&#x0D;&#x0A;- Original project: &apos;JavaPrograms&apos;&#x0D;&#x0A;- Destination element: &apos;JavaPrograms/src/com.java.programs.regex&apos;&#x0D;&#x0A;- Original element: &apos;com.java.programs.Upper_Lower.java&apos;" description="Copy compilation unit" destination="/src&lt;com.java.programs.regex" element1="/src&lt;com.java.programs{Upper_Lower.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1526149173358" units="1" version="1.0"/>
+</session>

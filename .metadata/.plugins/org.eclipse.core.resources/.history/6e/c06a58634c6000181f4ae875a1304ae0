@@ -1,0 +1,23 @@
+package com.java.object_class;
+
+public class RepeatWord {
+
+public static void main(String[] args) {
+	
+	String  cell = "iron/man/infinitywar/captain america/spider/man/black panther/ant/man/super/man";
+	String[] str=	cell.split("/");
+
+	//System.out.println("replace"+cell.replaceAll("/", " "));
+System.out.println(str);			//[Ljava.lang.String;@70dea4e
+int manCount=0 ;
+
+for(String s:str) {
+System.out.println(s);
+	if(s.equalsIgnoreCase("man")) {
+		manCount++;
+		
+	}
+}
+System.out.println(manCount);
+}
+}

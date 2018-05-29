@@ -1,0 +1,22 @@
+package com.java.programs;
+
+
+
+
+
+class DesignPattern{
+	private DesignPattern() {
+		
+		
+	}
+	DesignPattern demo = new DesignPattern();
+}
+public class Singleton {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

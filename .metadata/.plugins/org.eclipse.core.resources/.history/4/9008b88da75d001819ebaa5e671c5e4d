@@ -1,0 +1,19 @@
+package com.java.programs.logical;
+
+public class Swapping_Numbers {
+
+	public static void main(String[] args) {
+		
+		int i=10;
+		int j=24;
+		int a;
+		
+		a=i;
+		i=j;
+		j=a;
+		System.out.println(i);
+		System.out.println(j);
+
+	}
+
+}

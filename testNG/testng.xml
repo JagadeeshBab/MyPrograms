@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+  <test thread-count="5" name="Test">
+  		<parameter name="browser" value="chrome"></parameter>
+  	
+  		<parameter name="username" value="jagadeesh"></parameter>
+		<parameter name="password" value="45623"></parameter>
+	<classes>
+  	<class name="com.seleniumAutomation.businessScript.Gmail_Test"></class>
+  	<class name="com.seleniumAutomation.base.WebdriverEngine"></class>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+package com.java.programs;
+
+
+
+
+
+class Demo{
+	private Demo() {
+		
+		
+	}
+	
+}
+public class Singleton {
+
+	public static void main(String[] args) {
+		
+		Demo demo = new Demo();
+
+	}
+
+}

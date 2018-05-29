@@ -1,0 +1,15 @@
+package com.java.object_class;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		
+		String string = "My Name is Jagadeesh";
+		String reverse = "";
+		for (int i =  string.length(); i >=0; i--) {
+			reverse= reverse+string.charAt(i);
+		}
+System.out.println(reverse);
+	}
+
+}

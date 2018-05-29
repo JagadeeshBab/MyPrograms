@@ -1,0 +1,20 @@
+package com.automation.jaggu;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FindingHighlitedText {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Javaselenium\\drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://facebook.com");
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		String srt = (String) js.executeScript("return window.getSelection().toString()");
+System.out.println(" text is:" +srt);
+	}
+
+}

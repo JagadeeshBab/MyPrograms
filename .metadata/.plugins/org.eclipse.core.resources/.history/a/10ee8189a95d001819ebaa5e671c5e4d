@@ -1,0 +1,22 @@
+package com.java.programs.logical;
+
+public class Swapping_Numbers {
+
+	public static void main(String[] args) {
+		
+		int x=10;
+		int y=24;
+		int a;
+		
+		//1.with using third variable
+		a=x;
+		x=y;
+		y=a;
+		System.out.println("i value is :" +x);
+		System.out.println("j value is :"+y);
+
+		//2.without using third variable
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="chrome_Test(failed)">
+    <classes>
+      <class name="com.seleniumAutomation.businessScripts.Gmail_Test">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="tcBeforeExecution"/>
+          <include name="gmail"/>
+          <include name="openBrowser"/>
+          <include name="tcAfterExecution"/>
+        </methods>
+      </class> <!-- com.seleniumAutomation.businessScripts.Gmail_Test -->
+      <class name="com.seleniumAutomation.businessScripts.Facebook_Test">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="tcBeforeExecution"/>
+          <include name="fbTest"/>
+          <include name="openBrowser"/>
+          <include name="tcAfterExecution"/>
+        </methods>
+      </class> <!-- com.seleniumAutomation.businessScripts.Facebook_Test -->
+    </classes>
+  </test> <!-- chrome_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;matcher&apos; from expression &apos;Pattern.compile(&quot;[a-z]&quot;).matcher(str)&apos;&#x0D;&#x0A;- Original project: &apos;JavaPrograms&apos;&#x0D;&#x0A;- Variable name: &apos;matcher&apos;&#x0D;&#x0A;- Destination method: &apos;com.java.programs.regex.RegEx.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;Pattern.compile(&quot;[a-z]&quot;).matcher(str)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;matcher&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.java.programs.regex{RegEx.java" name="matcher" replace="true" selection="449 37" stamp="1526191751414" version="1.0"/>
+</session>

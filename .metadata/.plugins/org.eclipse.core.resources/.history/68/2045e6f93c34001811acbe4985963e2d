@@ -1,0 +1,27 @@
+package com.automation.selenium.java;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Options;
+import org.openqa.selenium.WebDriver.Timeouts;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Implicit_TimeOut {
+
+	public static void main(String[] args) {
+		
+		WebDriver webdriver=new FirefoxDriver();
+		webdriver.manage().window().maximize();
+		webdriver.get("https://www.google.com");
+		
+		//1st approach to write implicitlywait
+		Options options= webdriver.manage();
+		Timeouts timeouts=options.timeouts();
+		timeouts.implicitlyWait(100, TimeUnit.MILLISECONDS);
+		
+		//2nd approach to write implicitly
+		webdriver.manage().timeouts().implicitlyWait(130, TimeUnit.SECONDS);
+	}
+
+}
