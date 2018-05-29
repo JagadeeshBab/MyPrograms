@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ExtentSuite" duration-ms="5326" started-at="2018-05-11T10:31:48Z" finished-at="2018-05-11T10:31:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5326" started-at="2018-05-11T10:31:48Z" finished-at="2018-05-11T10:31:54Z">
+      <class name="com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot@3cda1055]" name="launch" is-config="true" duration-ms="41962" started-at="2018-05-11T10:31:06Z" finished-at="2018-05-11T10:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot@3cda1055]" name="setExtent" is-config="true" duration-ms="2687" started-at="2018-05-11T10:31:48Z" finished-at="2018-05-11T10:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="beforeTC()[pri:0, instance:com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot@3cda1055]" name="beforeTC" is-config="true" duration-ms="1" started-at="2018-05-11T10:31:51Z" finished-at="2018-05-11T10:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTC -->
+        <test-method status="PASS" signature="gmailLog()[pri:0, instance:com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot@3cda1055]" name="gmailLog" duration-ms="1574" started-at="2018-05-11T10:31:51Z" finished-at="2018-05-11T10:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLog -->
+        <test-method status="PASS" signature="afterTC(org.testng.ITestResult)[pri:0, instance:com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot@3cda1055]" name="afterTC" is-config="true" duration-ms="3" started-at="2018-05-11T10:31:53Z" finished-at="2018-05-11T10:31:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailLog status=SUCCESS method=ExtentScreenShot.gmailLog()[pri:0, instance:com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot@3cda1055] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTC -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot@3cda1055]" name="endExtent" is-config="true" duration-ms="987" started-at="2018-05-11T10:31:53Z" finished-at="2018-05-11T10:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+        <test-method status="PASS" signature="Browserclose()[pri:0, instance:com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot@3cda1055]" name="Browserclose" is-config="true" duration-ms="163" started-at="2018-05-11T10:31:54Z" finished-at="2018-05-11T10:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserclose -->
+      </class> <!-- com.automation.selenium.ExtentReportScreenShot.ExtentScreenShot -->
+    </test> <!-- Test -->
+  </suite> <!-- ExtentSuite -->
+</testng-results>
